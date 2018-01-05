@@ -7,7 +7,7 @@ function submit(e) {
     }
     var p=document.getElementById('element_1')
     var br=document.createElement("br")
-    br.textContent="\n"
+   // br.textContent="\n"
     p.appendChild(br);
     var e2=document.getElementById('element_2').textContent
     if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(e2)))
